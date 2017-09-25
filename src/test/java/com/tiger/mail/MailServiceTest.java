@@ -21,4 +21,5 @@ public class MailServiceTest {
 	public void sendSimpleMail() {
 		mailService.sendSimpleMail(to, "主题：简单邮件", "测试邮件内容");
 	}
+	
 }
